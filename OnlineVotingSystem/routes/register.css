@@ -1,0 +1,50 @@
+.header{
+    background-color: rgb(70, 207, 70);
+    height: 80px;
+    border: 1px groove rgb(32, 27, 27);
+    color: aliceblue;
+    text-align: center;
+}
+body{
+    background-color: azure;
+}
+.form{
+    margin: 40px 150px 0px 150px;
+    background-color: aliceblue;
+    padding: 50px;
+    border: 2px groove black;
+    border-radius: 5px;
+    
+}
+.form input{
+    margin-left: 40px;
+    width: 400px;
+    height: 25px;
+}
+.form textarea{
+    margin-left: 40px;
+}
+.form label{
+    margin-left: 40px;
+}
+.form p{
+    margin-left: 350px;
+    font-weight: bold;
+}
+#register{
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 450px;
+    height: 30px;
+    background-color: rgb(9, 160, 9);
+    color: white;
+}
+#register:hover{
+    background-color: rgb(12, 83, 189);  
+    
+}
+ h3{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bolder;
+}

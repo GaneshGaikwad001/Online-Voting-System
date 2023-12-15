@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <H1>Online Voting System</H1>
+    </div>
+   <div class="body">
+    <div class="left">
+        <h3>Welcome to Online Voting</h3><br><br>
+        <img src="voting.jpg" alt="voting image"><br><br>
+        <p>Just like we do vote physically, here you can do same activity virtually 
+            This platform is<br> made to make the task easy and save time. 
+            Here everything is done exactly <br>like it is done in traditional method 
+            but online.
+        </p>
+    </div>
+    <div class="right">
+        <form action="API/login.php" method="post">
+            <img src="user.png" alt="user profile"><br><br>
+            <input type="number" name="voter_id" placeholder="Enter your Voter id"><br><br>
+            <input type="password" name="password" placeholder="Enter password"><br><br>
+            <select name="role" id="role" style="width: 260px; height: 25px; margin-left: 15px;">
+                <option value="1">voter</option>
+                <option value="2">group</option>
+            </select><br><br>
+            <button id="login" type="submit">Login</button>
+            <p>Not Registered? <a href="routes/Register.html">Register here</a></p>
+        </form>
+        
+    </div>
+   </div>
+
+</body>
+</html>
